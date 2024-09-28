@@ -1,0 +1,84 @@
+body {
+    font-family: "Raleway", sans-serif;
+    color: white;
+    background: black;
+    margin: 2px;
+}
+
+header {
+    font-family: "Jacquard 24", system-ui;
+    text-align: center;
+    border-bottom: solid 2px rgb(192, 0, 0);
+    padding: 20px;
+    font-size: 40px;
+    color: rgb(192, 0, 0)
+}
+
+.principal {
+    background-color: rgb(145, 0, 0);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.principal h1 {
+    font-size: 35px;
+}
+
+.principal p {
+    font-size: 20px;
+}
+
+.chamada-texto {
+    margin-right: 3%
+}
+
+.musicas {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+}
+
+.musicas h2 {
+    color: rgb(192, 0, 0);
+}
+
+.lista-musicas {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.lista-musicas img {
+    height: 200px;
+}
+
+.lista-musicas img:hover {
+    border: 1px solid rgb(192, 0, 0)
+    
+}
+
+.outros {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+}
+
+.outros h3 {
+    color: rgb(192, 0, 0);
+    font-size: 25px;
+}
+
+.musicas-outros {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.musicas-outros img {
+    height: 200px;
+}
+
+.musicas-outros img:hover {
+    border: 2px solid rgb(192, 0, 0);
+}
